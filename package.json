@@ -1,0 +1,25 @@
+{
+  "name": "give-me-a-font",
+  "version": "1.0.0",
+  "private": true,
+  "description": "give-me-a-font",
+  "author": "Danilo Vilhena",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^2.32.3",
+    "gatsby-plugin-manifest": "^2.12.1",
+    "gatsby-plugin-offline": "^3.10.2",
+    "gatsby-plugin-sitemap": "^2.12.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
