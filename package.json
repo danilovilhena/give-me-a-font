@@ -2,7 +2,7 @@
   "name": "give-me-a-font",
   "version": "1.0.0",
   "private": true,
-  "description": "give-me-a-font",
+  "description": "Give me a font! - Just pick a font style and we will give you a font based in that choice.",
   "author": "Danilo Vilhena",
   "keywords": [
     "gatsby"
