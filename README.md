@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  Give me a font!
 </h1>
 
 ## 🚀 Quick start

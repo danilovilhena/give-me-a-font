@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* General Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Pacifico&family=Poppins:wght@700&display=swap');
+
+/* Demonstration Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cormorant:wght@700&family=Dancing+Script:wght@700&family=Raleway&family=Space+Mono&display=swap');
+
+*{
+    font-family: 'Manrope', sans-serif;
+}
+
+p{
+    @apply text-2xl;
+}
+
+h2{
+    @apply text-4xl;
+    @apply font-bold;
+    font-family: 'Poppins', 'sans-serif';
+}
