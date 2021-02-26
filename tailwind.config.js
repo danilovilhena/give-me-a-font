@@ -13,6 +13,11 @@ module.exports = {
       'purple-700': '#7C40B9',
       'purple-600': '#9663c9'
     }),
+    borderColor: theme => ({
+      ...theme('colors'),
+      'purple-700': '#7C40B9',
+      'purple-600': '#9663c9'
+    }),
     fontSize: {
       'xs': '.75rem',
       'sm': '.875rem',
