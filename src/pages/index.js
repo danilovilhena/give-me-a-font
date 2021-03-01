@@ -15,7 +15,7 @@ const IndexPage = () => {
             <Link to="/sans-serif"><ButtonPrimary>Sans-serif</ButtonPrimary></Link>
             <Link to="/serif"><ButtonPrimary>Serif</ButtonPrimary></Link>
             <Link to="/display"><ButtonPrimary>Display</ButtonPrimary></Link>
-            <Link to="/handwritten"><ButtonPrimary>Handwritten</ButtonPrimary></Link>
+            <Link to="/handwriting"><ButtonPrimary>Handwriting</ButtonPrimary></Link>
             <Link to="/monospace"><ButtonPrimary>Monospace</ButtonPrimary></Link>
           </div>
           <img className="max-w-md"src={Illustration} alt="Person using a desktop computer"></img>
@@ -33,7 +33,7 @@ const IndexPage = () => {
               <p className="mr-8 text-purple-700 text-3xl" style={{fontFamily: ['Raleway', 'sans-serif']}}>Sans-serif</p>
               <p className="mr-8 text-purple-700 text-3xl" style={{fontFamily: ['Cormorant', 'serif']}}>Serif</p>
               <p className="mr-8 text-purple-700 text-3xl" style={{fontFamily: ['Amatic SC', 'serif']}}>Display</p>
-              <p className="mr-8 text-purple-700 text-3xl" style={{fontFamily: ['Dancing Script', 'serif']}}>Handwritten</p>
+              <p className="mr-8 text-purple-700 text-3xl" style={{fontFamily: ['Dancing Script', 'serif']}}>Handwriting</p>
               <p className="text-purple-700 text-3xl" style={{fontFamily: ['Space Mono', 'sans-serif']}}>Monospace</p>
             </div>
           </article>

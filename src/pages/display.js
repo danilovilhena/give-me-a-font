@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import Layout from "../components/Layout"
 import ButtonPrimary from "../components/ButtonPrimary"
 import ButtonSecondary from "../components/ButtonSecondary"
-import FontJson from "../assets/sans-serif.json"
+import FontJson from "../assets/display.json"
 
 const buildFontAndArrayString = (font) => {
     let str = "https://fonts.googleapis.com/css2?family=" + encodeURIComponent(font.family)
@@ -47,7 +47,7 @@ const buildFontAndArrayString = (font) => {
     return [str, arr]
 }
 
-const SansSerifPage = () => {
+const DisplayPage = () => {
     const selectedFont = FontJson.items[Math.floor(Math.random() * FontJson.items.length)]
     let result = buildFontAndArrayString(selectedFont)
     selectedFont['str'] = result[0]
@@ -62,7 +62,7 @@ const SansSerifPage = () => {
             <section className="flex flex-row justify-between items-center mb-12">
                 <div>
                     <h2>Here is your font:</h2>
-                    <p className="mt-2 text-purple-700 text-4xl" style={{fontFamily: [selectedFont.family, 'sans-serif']}}>{selectedFont.family}</p>
+                    <p className="mt-2 text-purple-700 text-4xl" style={{fontFamily: [selectedFont.family, 'cursive']}}>{selectedFont.family}</p>
                 </div>
                 <div className="mt-4">
                     <a className="text-xl font-bold text-white border-4 border-blue-600 hover:border-blue-500 bg-blue-600 hover:bg-blue-500 transition duration-300 py-2 px-4 rounded-lg" href={"https://fonts.google.com/specimen/" + encodeURIComponent(selectedFont.family)}>
@@ -79,7 +79,7 @@ const SansSerifPage = () => {
                             return (
                                 <div className="mr-12" key={variant}>
                                     <h4 className="text-2xl">{variant}</h4>
-                                    <p className="text-purple-700 text-3xl" style={{fontFamily: [selectedFont.family, 'sans-serif'], fontWeight: variant, fontStyle: 'normal'}}>{selectedFont.family}</p>
+                                    <p className="text-purple-700 text-3xl" style={{fontFamily: [selectedFont.family, 'cursive'], fontWeight: variant, fontStyle: 'normal'}}>{selectedFont.family}</p>
                                 </div>
                             )
                         })}
@@ -92,7 +92,7 @@ const SansSerifPage = () => {
                             return (
                                 <div className="mr-12" key={variant}>
                                     <h4 className="text-2xl">{variant}</h4>
-                                    <p className="text-purple-700 text-3xl" style={{fontFamily: [selectedFont.family, 'sans-serif'], fontWeight: variant, fontStyle: 'italic'}}>{selectedFont.family}</p>
+                                    <p className="text-purple-700 text-3xl" style={{fontFamily: [selectedFont.family, 'cursive'], fontWeight: variant, fontStyle: 'italic'}}>{selectedFont.family}</p>
                                 </div>
                             )
                         })}
@@ -101,11 +101,11 @@ const SansSerifPage = () => {
             </section>
             <section className="flex items-center justify-center">
                 <Link to="/"><ButtonSecondary>Return</ButtonSecondary></Link>
-                <Link to="/sans-serif"><ButtonPrimary>Generate another</ButtonPrimary></Link>
+                <Link to="/display"><ButtonPrimary>Generate another</ButtonPrimary></Link>
             </section>
         </main>
     </Layout>
     )
 }
 
-export default SansSerifPage
+export default DisplayPage
