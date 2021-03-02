@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import SEO from "../components/SEO"
 import Layout from "../components/Layout"
 import ButtonPrimary from "../components/ButtonPrimary"
 import ButtonSecondary from "../components/ButtonSecondary"
@@ -39,7 +40,7 @@ const buildFontAndArrayString = (font) => {
         })
         arr[0].map(el => { return +el })
         arr[0].sort(function(a, b) { return a - b })
-        str += arr[0].toString().replaceAll(',', ';')
+        str += arr[0].toString().replace(/,/g, ';');
     }
 
     str += "&display=swap"
@@ -55,6 +56,11 @@ const SansSerifPage = () => {
 
     return (
     <Layout>
+        <SEO 
+          lang="en"
+          title="Sans serif" 
+          description="Sans serif font."/>
+
         <link rel="preconnect" href="https://fonts.gstatic.com"></link>
         <link href={selectedFont.str} rel="stylesheet"></link>
 

@@ -1,5 +1,6 @@
 import React from "react"
 import {Link} from "gatsby"
+import SEO from "../components/SEO"
 import ButtonPrimary from "../components/ButtonPrimary"
 import Layout from "../components/Layout"
 import Illustration from "../images/illustration.svg"
@@ -7,6 +8,11 @@ import Illustration from "../images/illustration.svg"
 const IndexPage = () => {
   return (
     <Layout>
+      <SEO 
+        lang="en"
+        title="Home" 
+        description="Home page"/>
+
       <main className="max-w-6xl w-10/12 sm:w-4/5 mx-auto flex flex-col justify-center items-center">
         <h1 className="text-center font-bold text-3xl md:text-4xl lg:text-5xl mb-2" style={{fontFamily: ['Poppins', 'sans-serif']}}>An easy way to get your next font!</h1>
         <section className="flex flex-col items-center mb-12 w-full">

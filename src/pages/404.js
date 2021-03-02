@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import SEO from "../components/SEO"
 import Layout from "../components/Layout"
 import ButtonSecondary from "../components/ButtonSecondary"
 import Illustration from '../images/404.svg'
@@ -8,6 +9,11 @@ import Illustration from '../images/404.svg'
 const NotFoundPage = () => {
   return (
     <Layout>
+      <SEO 
+        lang="en"
+        title="404" 
+        description="404 page"/>
+
       <main className="flex items-center justify-center flex-col w-10/12 mx-auto text-center">
         <img className="w-full max-w-2xl" src={Illustration} alt="Character holding the numbers 404"></img>
         <h2>Page not found! </h2>
