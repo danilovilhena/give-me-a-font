@@ -14,4 +14,6 @@
 </div>
 
 ## Overview
-Give me a font! is a Gatsby application that gives you a free font based in the choice of a font style, such as sans-serif, serif or monospace. It used the Google Fonts API to create a JSON for each style and then use that created file to select randomly a font for your next project.
+Give me a font! is a Gatsby application that gives you a free font based in the choice of a font style, such as sans-serif, serif or monospace. 
+
+It used the Google Fonts API to create a JSON file for each style and then use that file to select randomly a font for your next project.
