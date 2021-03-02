@@ -29,7 +29,7 @@ const IndexPage = () => {
         <section className="w-full">
           <article className="w-full">
             <h2 className="mb-2">How does it work?</h2>
-            <p className="mb-4">We have a database of all a bunch of free fonts and based on the style you choose, we randomly selected a font that fits in that category.</p>
+            <p className="mb-4">We have a database of a bunch of free fonts and based on the style you choose, we randomly selected a font that fits in that category.</p>
             <p>If you don’t like the chosen one, you have the option to generate another font in same style or return and pick a different one.</p>
           </article>
           <article className="w-full mt-8 lg:mt-12">
