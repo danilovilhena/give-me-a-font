@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://danilovilhena.com/display/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://danilovilhena.com/handwriting/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://danilovilhena.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://danilovilhena.com/monospace/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://danilovilhena.com/sans-serif/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://danilovilhena.com/serif/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://danilovilhena.github.io/give-me-a-font/display/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://danilovilhena.github.io/give-me-a-font/handwriting/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://danilovilhena.github.io/give-me-a-font/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://danilovilhena.github.io/give-me-a-font/monospace/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://danilovilhena.github.io/give-me-a-font/sans-serif/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://danilovilhena.github.io/give-me-a-font/serif/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
