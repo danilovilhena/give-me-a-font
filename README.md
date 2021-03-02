@@ -13,7 +13,28 @@
   
 </div>
 
-## Overview
+## 📗 Description
 Give me a font! is a Gatsby application that gives you a free font based in the choice of a font style, such as sans-serif, serif or monospace. 
 
 It used the Google Fonts API to create a JSON file for each style and then use that file to select randomly a font for your next project.
+
+## 🔧 Technologies used
+
+* <a href="gatsbyjs.com">Gatsby</a>
+* <a href="https://tailwindcss.com">Tailwind</a>
+
+## 💡 Demo
+
+<div align="center">
+
+![Screenshot of the app](https://drive.google.com/uc?export=view&id=1Ysjw0nDIruxNVplk01S_o3QMDCx0MWX9)
+<b><a href="https://danilovilhena.github.io/give-me-a-font/">Live demo</a></b>
+
+</div>
+
+## 👋 Contact
+If you want to contact me you can reach me at danilo.vilhena@gmail.com
+
+## 📙 License
+
+This project uses the following license: <a href="https://github.com/danilovilhena/give-me-a-font/blob/main/LICENSE">MIT</a>.
