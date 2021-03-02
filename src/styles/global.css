@@ -13,11 +13,17 @@
 }
 
 p{
-    @apply text-2xl;
+    @apply text-xl;
 }
 
 h2{
-    @apply text-4xl;
+    @apply text-3xl;
     @apply font-bold;
     font-family: 'Poppins', 'sans-serif';
+}
+
+@media (min-width: 1280px) {
+    p{ @apply text-2xl; }
+    
+    h2{ @apply text-4xl; }
 }
