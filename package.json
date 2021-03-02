@@ -3,16 +3,18 @@
   "version": "1.0.0",
   "private": true,
   "description": "Give me a font! - Just pick a font style and we will give you a font based in that choice.",
-  "author": "Danilo Vilhena",
+  "author": "Danilo Vilhena <danilo.vilhena@gmail.com>",
   "keywords": [
     "gatsby"
   ],
+  "license": "0BSD",
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "gatsby": "^2.32.3",
@@ -23,6 +25,7 @@
     "gatsby-plugin-sharp": "^2.14.3",
     "gatsby-plugin-sitemap": "^2.12.0",
     "gatsby-transformer-sharp": "^2.12.0",
+    "gh-pages": "^3.1.0",
     "postcss": "^8.2.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
