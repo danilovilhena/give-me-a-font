@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">Application that gives you a random free font for your next project! 🖋️</p>
-## 🚀 Quick start
+
 
 <div align="center">
 
@@ -13,6 +13,7 @@
   
 </div>
 
+## 🚀 Quick start
 1.  **Create a Gatsby site.**
 
     Use the Gatsby CLI to create a new site, specifying the minimal starter.
