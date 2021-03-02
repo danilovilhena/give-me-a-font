@@ -8,8 +8,8 @@ import Illustration from '../images/404.svg'
 const NotFoundPage = () => {
   return (
     <Layout>
-      <main className="flex items-center justify-center flex-col">
-        <img style={{height: '50vh'}} src={Illustration} alt="Character holding the numbers 404"></img>
+      <main className="flex items-center justify-center flex-col w-10/12 mx-auto text-center">
+        <img className="w-full max-w-2xl" src={Illustration} alt="Character holding the numbers 404"></img>
         <h2>Page not found! </h2>
         <p className="mb-12">Please return to the website with the button below.</p>
         <Link to="/"><ButtonSecondary>Return</ButtonSecondary></Link>

@@ -59,12 +59,12 @@ const MonospacePage = () => {
         <link href={selectedFont.str} rel="stylesheet"></link>
 
         <main className="max-w-6xl w-4/5 mx-auto flex flex-col">
-            <section className="flex flex-row justify-between items-center mb-12">
+            <section className="flex flex-col md:flex-row justify-between items-start md:items-center mb-12">
                 <div>
                     <h2>Here is your font:</h2>
                     <p className="mt-2 text-purple-700 text-4xl" style={{fontFamily: [selectedFont.family, 'monospace']}}>{selectedFont.family}</p>
                 </div>
-                <div className="mt-4">
+                <div className="mt-4 hidden md:block">
                     <a className="text-xl font-bold text-white border-4 border-blue-600 hover:border-blue-500 bg-blue-600 hover:bg-blue-500 transition duration-300 py-2 px-4 rounded-lg" href={"https://fonts.google.com/specimen/" + encodeURIComponent(selectedFont.family)}>
                         Google Fonts
                     </a>
@@ -99,9 +99,12 @@ const MonospacePage = () => {
                     </div>
                 </div>
             </section>
-            <section className="flex items-center justify-center">
+            <section className="flex flex-col-reverse md:flex-row items-center justify-center">
                 <Link to="/"><ButtonSecondary>Return</ButtonSecondary></Link>
                 <Link to="/monospace"><ButtonPrimary>Generate another</ButtonPrimary></Link>
+                <a className="text-xl font-bold text-white border-4 border-blue-600 hover:border-blue-500 bg-blue-600 hover:bg-blue-500 transition duration-300 py-2 px-4 mb-3 rounded-lg md:hidden" href={"https://fonts.google.com/specimen/" + encodeURIComponent(selectedFont.family)}>
+                    Google Fonts
+                </a>
             </section>
         </main>
     </Layout>

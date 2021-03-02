@@ -9,7 +9,7 @@ const Layout = ({children}) => {
     </header>
     {children}
     <footer className="max-w-6xl w-4/5 mx-auto flex justify-center mb-4 mt-12">
-        <p className="text-xl text-purple-700">Developed by <a className="hover:text-purple-600 hover:underline transition duration-300" href="https://danilovilhena.com/en">Danilo Vilhena</a></p>
+        <p className="text-center text-xl text-purple-700">Developed by <a className="hover:text-purple-600 hover:underline transition duration-300" href="https://danilovilhena.com/en">Danilo Vilhena</a></p>
     </footer>
     </>
     )
