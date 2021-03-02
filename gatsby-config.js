@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/give-me-a-font",
   siteMetadata: {
     title: `Give me a font!`,
     description: `Just pick a font style and we will give you a font based in that choice.`,
