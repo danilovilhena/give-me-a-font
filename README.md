@@ -1,13 +1,17 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  <a href="https://danilovilhena.github.io/give-me-a-font/">
+    <img src="https://drive.google.com/uc?export=view&id=1Jvz-DWfJBK_7Kez_I7uDmb6ehNeKH812" height="75" alt="Give me a font!"/>
   </a>
 </p>
-<h1 align="center">
-  Give me a font!
-</h1>
 
+<p align="center">Application that gives you a random free font for your next project! 🖋️</p>
 ## 🚀 Quick start
+
+<div align="center">
+
+  ![GitHub](https://img.shields.io/github/license/danilovilhena/give-me-a-font)  ![Website](https://img.shields.io/website?url=https%3A%2F%2Fdanilovilhena.github.io%2Fgive-me-a-font%2F)  ![GitHub branch checks state](https://img.shields.io/github/checks-status/danilovilhena/give-me-a-font/gh-pages)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/danilovilhena/give-me-a-font)  ![GitHub top language](https://img.shields.io/github/languages/top/danilovilhena/give-me-a-font)
+  
+</div>
 
 1.  **Create a Gatsby site.**
 
