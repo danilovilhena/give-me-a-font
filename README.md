@@ -1,7 +1,5 @@
 <p align="center">
-  <a href="https://danilovilhena.github.io/give-me-a-font/">
-    <img src="https://drive.google.com/uc?export=view&id=1Jvz-DWfJBK_7Kez_I7uDmb6ehNeKH812" height="75" alt="Give me a font!"/>
-  </a>
+  <b>Give me a font!</b>
 </p>
 
 <p align="center">🖋️ Application that gives you a random free font for your next project!</p>
